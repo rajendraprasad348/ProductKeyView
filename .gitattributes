@@ -1,0 +1,4 @@
+*.* linguist-language=Pug
+*.* linguist-vendored=Pug
+
+*.android linguist-vendored=true
