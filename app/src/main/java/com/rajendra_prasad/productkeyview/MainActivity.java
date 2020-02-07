@@ -9,6 +9,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.rajendra_prasad.productkeylibrary.ProductKeyView;
 
+/**
+ * Created by Rajendra Prasad C on 24,December,2019
+ * Manipal Karnataka
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private ProductKeyView pkv;
