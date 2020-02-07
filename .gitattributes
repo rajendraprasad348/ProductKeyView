@@ -1,4 +1,1 @@
-*.* linguist-language=Pug
-*.* linguist-vendored=Pug
 
-*.apk linguist-vendored=true
