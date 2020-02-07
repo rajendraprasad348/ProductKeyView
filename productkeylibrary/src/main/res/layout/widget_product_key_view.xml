@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/ll_total_view"
+    android:weightSum="4">
+
+
+    <com.rajendra_prasad.productkeylibrary.MonitoringEditText
+        android:id="@+id/inputCode1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_box"
+        android:gravity="center"
+        android:hint="- - - -"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <com.rajendra_prasad.productkeylibrary.MonitoringEditText
+        android:id="@+id/inputCode2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_box"
+        android:gravity="center"
+        android:hint="- - - -"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <com.rajendra_prasad.productkeylibrary.MonitoringEditText
+        android:id="@+id/inputCode3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_box"
+        android:gravity="center"
+        android:hint="- - - -"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+
+    <com.rajendra_prasad.productkeylibrary.MonitoringEditText
+        android:id="@+id/inputCode4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_box"
+        android:gravity="center"
+        android:hint="- - - -"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+</LinearLayout>

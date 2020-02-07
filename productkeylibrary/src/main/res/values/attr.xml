@@ -1,0 +1,22 @@
+<resources>
+    <declare-styleable name="custom">
+        <attr name="pkv_textColor" format="color|reference" type="integer" />
+        <attr name="pkv_hintColor" format="color|reference" type="integer" />
+        <attr name="pkv_hint" format="string" type="string" />
+        <attr name="pkv_textSize" format="dimension" />
+        <attr name="pkv_viewEnabled" format="boolean" />
+        <attr name="pkv_background" format="color|reference" />
+        <attr name="pkv_maxLength" format="integer|reference" />
+        <attr name="pkv_itemHeight" format="integer|reference" />
+        <attr name="pkv_itemBackground" format="integer|reference" />
+
+
+        <attr name="pkv_textStyle" format="enum">
+            <enum name="NORMAL" value="0" />
+            <enum name="BOLD" value="1" />
+            <enum name="ITALIC" value="2" />
+            <enum name="BOLD_ITALIC" value="3" />
+        </attr>
+
+    </declare-styleable>
+</resources>
